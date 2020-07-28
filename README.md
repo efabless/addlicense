@@ -8,13 +8,13 @@ to any file that already has one.
 
 ## install
 
-    go get -u github.com/google/addlicense
+    go get -u github.com/efabless/addlicense
 
 ## usage
 
     addlicense [flags] pattern [pattern ...]
 
-    -c copyright holder (defaults to "Google LLC")
+    -c copyright holder (defaults to "efablesss corporation")
     -f custom license file (no default)
     -l license type: apache, bsd, mit, mpl (defaults to "apache")
     -y year (defaults to current year)
@@ -26,5 +26,3 @@ to single files.
 ## license
 
 Apache 2.0
-
-This is not an official Google product.
